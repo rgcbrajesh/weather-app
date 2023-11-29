@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Main{
+    background-color:rgb(248, 234, 207);
+    height: 400px;
+    width:300px;
+    /* margin-left:50px; */
+    margin: auto;
+    margin-top:50px;
+    border-radius:20px;
+}
+.input{
+    margin-top: 20px;
+    height: 50px;
+    border-radius:20px;
+    border: none;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.input::-webkit-input-placeholder{
+    font-size: 20px;
+}
+img{
+    height: 50px;
+}
+h3{
+    text-transform: uppercase;
+}
+#weather-icon{
+    margin-top: 10px;
+    height: 100px;
+}
+#humadity{
+    height: 30px;
+}
+.humadity1{
+    float: left;
+    margin-left: 50px;
+}
+.wind{
+    float:right;
+    margin-right: 50px;
+    /* height: 20px; */
+}
+#wind{
+    height: 25px;
+   
+}
