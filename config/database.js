@@ -11,7 +11,7 @@ const pool = mysql.createPool({
   connectionLimit: 10,
   queueLimit: 0
 });
-
+// hello from testing 
 // Create database and tables if they don't exist
 const initializeDatabase = async () => {
   try {
